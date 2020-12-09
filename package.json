@@ -1,0 +1,27 @@
+{
+  "name": "video-chat",
+  "version": "1.0.0",
+  "description": "webRTC video chat app using websocket signaler",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buckrivard/video-chat.git"
+  },
+  "author": "buckrivard <buckrivard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buckrivard/video-chat/issues"
+  },
+  "homepage": "https://github.com/buckrivard/video-chat#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "nodemon": "^2.0.6",
+    "ws": "^5.2.2"
+  }
+}
